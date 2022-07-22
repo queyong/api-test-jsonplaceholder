@@ -1,0 +1,22 @@
+{
+  "name": "api-test-example",
+  "version": "1.0.0",
+  "description": "API Automated Tests with SuperTest and Mocha",
+  "scripts": {
+    "api-test-example": "mocha ./test/example1.js"
+  },
+  "timeout": 300000,
+  "author": "Yong Que",
+  "keywords": [
+    "api",
+    "mocha",
+    "test"
+  ],
+  "devDependencies": {
+    "mocha": "^9.2.1",
+    "should": "^13.2.3",
+    "supertest": "^6.2.4",
+    "lodash": ">=4.17.19",
+    "mocha-param": "^2.0.1"
+  }
+}
